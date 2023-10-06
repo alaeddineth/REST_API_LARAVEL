@@ -65,16 +65,20 @@ To get started with this project, follow these steps:
 
 9. **Import the provided Postman workspace for testing (use the workspace file named your_workspace.json located in the root directory). Explore and test the API endpoints using Postman:**
 
-API Endpoints
+## API Endpoints
+
+Here are the API endpoints provided by this project:
+
 1. **List Instructors (GET):** `/api/instructors`
 2. **Create Instructor (POST):** `/api/instructors`
 3. **View Instructor (GET):** `/api/instructors/{id}`
 4. **Update Instructor (PUT):** `/api/instructors/{id}`
 5. **Delete Instructor (DELETE):** `/api/instructors/{id}`
-Contributing
-Contributions to this project are welcome. Feel free to open issues, submit pull requests, or provide feedback.
 
-License
+## Contributing
+ Contributions to this project are welcome. Feel free to open issues, submit pull requests, or provide feedback.
+
+## License
 This project is open-source and available under the MIT License.
 
 
