@@ -2,6 +2,8 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\API\InstructorController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -26,3 +28,5 @@ Route::get('Training/Instructors', function () {
         'job' => 'IT instructor & Full Stack Developer',
     ]);
 });
+
+Route::apiResource('instructors', InstructorController::class);
