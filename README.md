@@ -22,42 +22,37 @@ This project covers the following topics and features:
 
 To get started with this project, follow these steps:
 
-1. **Clone the repository to your local machine:**
+```bash
+# Clone the repository to your local machine:
+git clone https://github.com/your_username/REST_API_Laravel.git
 
-   ```bash
-   git clone https://github.com/your_username/REST_API_Laravel.git
-   
+# Navigate to the project directory:
 cd REST_API_Laravel
-2. **Navigate to the project directory:**
 
+# Install Composer dependencies, create a copy of .env, and generate an application key:
+composer install
+cp .env.example .env
+php artisan key:generate
 
-   ```bash
-   cd REST_API_Laravel
-3. **Install Composer dependencies, create a copy of .env, and generate an application key:**
-     ```bash
-     composer install
-     cp .env.example .env
-     php artisan key:generate
-     ```
-4. **Configure the database by opening .env in a text editor and setting the database connection settings. After making changes, save the file and exit the text editor:**
+# Configure the database by opening .env in a text editor and setting the database connection settings. After making changes, save the file and exit the text editor:
+# DB_CONNECTION=mysql
+# DB_HOST=127.0.0.1
+# DB_PORT=3306
+# DB_DATABASE=rest_api  # Set the database name to 'rest_api'
+# DB_USERNAME=root      # Your database username
+# DB_PASSWORD=          # Your database password
 
-5. **Create a new database named 'rest_api' in your MySQL database management tool:**
+# Create a new database named 'rest_api' in your MySQL database management tool.
 
-6. **Run database migrations and seed the database:**
-     ```bash
-     php artisan migrate
-     php artisan db:seed --class=InstructorsTableSeeder
-     ```
+# Run database migrations and seed the database:
+php artisan migrate
+php artisan db:seed --class=InstructorsTableSeeder
 
-7. **Start the Laravel development server:**
-     ```bash
-     php artisan serve
-     ```
+# Start the Laravel development server:
+php artisan serve
 
-8. **Import the provided Postman workspace for testing (use the workspace file named your_workspace.json located in the root directory). Explore and test the API endpoints using Postman:**
-
-
-## Project Overview
+# API Endpoints
+# Import the provided Postman workspace for testing (use the workspace file named your_workspace.json located in the root directory). Explore and test the API endpoints using Postman.
 1. List Instructors (GET): /api/instructors
 3. Create Instructor (POST): /apiinstructors
 4. View Instructor (GET): /apiinstructors/{id}
