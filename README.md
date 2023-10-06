@@ -29,7 +29,7 @@ To get started with this project, follow these steps:
 # Navigate to the project directory
 cd REST_API_Laravel
 
-# Install Composer dependencies, create a copy of .env, generate an application key, and configure the database
+### Install Composer dependencies, create a copy of .env, generate an application key, and configure the database
 composer install
 cp .env.example .env
 php artisan key:generate
