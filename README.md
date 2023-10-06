@@ -49,11 +49,11 @@ php artisan serve
 # Import the provided Postman workspace for testing (use the workspace file named your_workspace.json located in the root directory)
 # Explore and test the API endpoints using Postman
 API Routes
-List Instructors (GET): /api/instructors
-Create Instructor (POST): /apiinstructors
-View Instructor (GET): /apiinstructors/{id}
-Update Instructor (PUT): /api/instructors/{id}
-Delete Instructor (DELETE): /api/instructors/{id}
+1. List Instructors (GET): /api/instructors
+3. Create Instructor (POST): /apiinstructors
+4. View Instructor (GET): /apiinstructors/{id}
+5. Update Instructor (PUT): /api/instructors/{id}
+6. Delete Instructor (DELETE): /api/instructors/{id}
 Contributing
 Contributions to this project are welcome. Feel free to open issues, submit pull requests, or provide feedback.
 
