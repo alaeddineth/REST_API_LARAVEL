@@ -28,26 +28,35 @@ To get started with this project, follow these steps:
    git clone https://github.com/your_username/REST_API_Laravel.git
 ### Navigate to the project directory
 cd REST_API_Laravel
+2. **Navigate to the project directory:**
 
-### Install Composer dependencies, create a copy of .env, generate an application key, and configure the database
-composer install
-cp .env.example .env
-php artisan key:generate
+   ```bash
+   cd REST_API_Laravel
+   - Install Composer dependencies, create a copy of .env, and generate an application key:
+     ```bash
+     composer install
+     cp .env.example .env
+     php artisan key:generate
+     ```
 
-### Configure the database by opening .env in a text editor and setting the database connection settings
-### After making changes, save the file and exit the text editor
+   - Configure the database by opening .env in a text editor and setting the database connection settings. After making changes, save the file and exit the text editor.
 
-### Create a new database named 'rest_api' in your MySQL database management tool
+   - Create a new database named 'rest_api' in your MySQL database management tool.
 
-### Run database migrations and seed the database
-php artisan migrate
-php artisan db:seed --class=InstructorsTableSeeder
+   - Run database migrations and seed the database:
+     ```bash
+     php artisan migrate
+     php artisan db:seed --class=InstructorsTableSeeder
+     ```
 
-# Start the Laravel development server
-php artisan serve
+   - Start the Laravel development server:
+     ```bash
+     php artisan serve
+     ```
 
-### Import the provided Postman workspace for testing (use the workspace file named your_workspace.json located in the root directory)
-### Explore and test the API endpoints using Postman
+   - Import the provided Postman workspace for testing (use the workspace file named your_workspace.json located in the root directory). Explore and test the API endpoints using Postman.
+
+
 API Routes
 1. List Instructors (GET): /api/instructors
 3. Create Instructor (POST): /apiinstructors
