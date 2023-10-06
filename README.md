@@ -26,38 +26,38 @@ To get started with this project, follow these steps:
 
    ```bash
    git clone https://github.com/your_username/REST_API_Laravel.git
-### Navigate to the project directory
+   
 cd REST_API_Laravel
 2. **Navigate to the project directory:**
 
+
    ```bash
    cd REST_API_Laravel
-   - Install Composer dependencies, create a copy of .env, and generate an application key:
+3. **Install Composer dependencies, create a copy of .env, and generate an application key:**
      ```bash
      composer install
      cp .env.example .env
      php artisan key:generate
      ```
+4. **Configure the database by opening .env in a text editor and setting the database connection settings. After making changes, save the file and exit the text editor:**
 
-   - Configure the database by opening .env in a text editor and setting the database connection settings. After making changes, save the file and exit the text editor.
+5. **Create a new database named 'rest_api' in your MySQL database management tool:**
 
-   - Create a new database named 'rest_api' in your MySQL database management tool.
-
-   - Run database migrations and seed the database:
+6. **Run database migrations and seed the database:**
      ```bash
      php artisan migrate
      php artisan db:seed --class=InstructorsTableSeeder
      ```
 
-   - Start the Laravel development server:
+7. **Start the Laravel development server:**
      ```bash
      php artisan serve
      ```
 
-   - Import the provided Postman workspace for testing (use the workspace file named your_workspace.json located in the root directory). Explore and test the API endpoints using Postman.
+8. **Import the provided Postman workspace for testing (use the workspace file named your_workspace.json located in the root directory). Explore and test the API endpoints using Postman:**
 
 
-API Routes
+## Project Overview
 1. List Instructors (GET): /api/instructors
 3. Create Instructor (POST): /apiinstructors
 4. View Instructor (GET): /apiinstructors/{id}
