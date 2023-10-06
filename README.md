@@ -63,7 +63,10 @@ To get started with this project, follow these steps:
     php artisan serve
 
 
-9. **Import the provided Postman workspace for testing (use the workspace file named your_workspace.json located in the root directory). Explore and test the API endpoints using Postman:**
+9. **Import the provided Postman workspace for testing**
+    (use the workspace file "Laravel_CRUD_API.postman_workspace" located in the root directory).
+
+10. **Explore and test the API endpoints using Postman:**
 
 ## API Endpoints
 
